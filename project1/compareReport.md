@@ -7,7 +7,7 @@
 
 ### [Make 구현]
 
-![makeflow](makeflow1.png)
+![makeflow](./image/makeflow1.png)
 
 ### [n8n 구현]
 
