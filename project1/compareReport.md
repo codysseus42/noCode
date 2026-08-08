@@ -100,7 +100,7 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 ![SecondResponseForm](./image/131secondRunExcel.png)
 </details>
 
-### 공통
+### 공통실행결과
 
 입력 시간대 조정문제로 timestamp시간에 차이가 생겼지만 시간 기록은 일관됨니다. 
 
@@ -133,18 +133,18 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 둘을 한꺼번에 작동 시킨 결과 마지막에 n8n 작업 내용을 읽어 들여서 실패 메일을 1개 더 전송하였으나 단독으로 작동 시킬 경우 로직 상에는 문제가 없어서 해당 테스트 내용을 첨부 하였습니다.
 
-#### 2회차(메일): 주관식 응답(1점추가) 불합격 된결과 입니다.
+#### 회차(메일): 주관식 응답(1점추가) 불합격 된결과 입니다.
 
 ![failsecondlist](./image/139outlooklist.png)
 
-### n8n
+### [n8n]
 
 #### 워크플로우 실행 히스토리
 
 ![n8nHistList](./image/111n8nhistlist.png)
 
 
-#### n8n 실행 결과 화면 캡처(Bonus)
+#### [n8n 실행 결과 화면 캡처(Bonus)]
 
 1.gmail1
 
@@ -154,9 +154,9 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 4. outlook(2회차)
 
-### Make
+### [Make]
 
-#### 워크플로우 실행 히스토리
+#### [워크플로우 실행 히스토리]
 
 ![makeHistList](./image/114makehistlist.png)
 
@@ -164,7 +164,7 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ![makesecondRun](./image/116makehist2.png)
 
-#### Make 실행 결과 화면 캡처(Bonus)
+#### [Make 실행 결과 화면 캡처(Bonus)]
 
 1.gmail1
 
@@ -178,7 +178,7 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 
 
-## 비교항목
+## [비교항목]
 |비교항목 | Make | n8n | 
 | --- | --- | --- |
 | 1 UI/UX|  | | 
