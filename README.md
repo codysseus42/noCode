@@ -63,7 +63,7 @@
 | 사용한 도구 이름 | [01_tool_comparison.md](./01_tool_comparison.md) | [사용 도구](./project1/compareReport.md#자동화-도구-구현make-vs-n8n-과정-요약) |
 | 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) |
 | 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[n8n 구현 부터](./project1/compareReport.md#n8n-구현) |
-| 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | [구현 과정 요약](./project1/compareReport.md#구현과정요약) |
+| 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | [n8n구현과정요약 부터](./project1/compareReport.md#n8n구현과정요약) |
 | 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [n8n 부터](./project1/compareReport.md#n8n)|
 | 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) [비교항목](./project1/compareReport.md#비교항목)|
 | 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) |[도구 장단점](./project1/compareReport.md#도구-장단점)|

@@ -17,6 +17,17 @@ graph LR
 #### n8n 워크 플로우 구현 화면 캡쳐 
 ![n8nflow](./image/n8nworkflow.png)
 
+#### n8n구현과정요약
+구조가 같기 떄문에 한분기로 요약합니다.
+
+    -Trigger and Action1: Google Sheets Trigger
+    -Action2:Analyze document(주관식 평가후 합산)
+    -Action3: Analyze document(주관식 답변(편지에 대한 답장 생성)
+    -if(true/false) Action2의 점수 3점이상 합격으로/3점미만 불합격으로)
+    - Action4:Append sheet - 합격자 불합격자들을 각각 다른 sheet(pass/fail)에 추가 이때 isNew컬럼 값은 y로 입력
+    - Action5: Get row(s) in sheet - isNew Column이 y인 컬럼들을 모음
+    - Action6: Update row in sheet - 전에 읽어들인 isNew Column의 값을 N으로 바꿈
+    -Action7: Send message -Action 5에서 읽어들인 내용으로 메일을 전송함
 
 
 ### [Make 구현]
@@ -31,17 +42,21 @@ graph LR
 
 n8n과 일치하게  Form spread sheet에 맞게 변경 되었습니다.
 
-#### 구현과정요약
+#### make구현과정요약
+
+구조가 같기 떄문에 한분기로 요약합니다.
+
     -Trigger and Action1: Google Sheets-watch new rows
     -Action2:Google Gemini AI-Generate a Response(주관식 평가후 합산)
     -Action3:Google Gemini AI-Generate a Response(주관식 답변(편지에 대한 답장 생성)
-    -:Router(pass/fail) Action2의 점수 3점이상 합격으로/3점미만 불합격으로)
+    -Router(pass/fail) Action2의 점수 3점이상 합격으로/3점미만 불합격으로)
     - Aggregator 하나씩 처리된 답변들을 모음
-    - Filter Aggregatr의 결과가 0보다 크면 통과
-    - Action4: Google SHeets-Bulk AddRows - 합격자 불합격자들을 각각 다른 sheet(pass/fail)에 추가 이때 isNew컬럼 값은 y로 입력
+    - Filter Aggregator의 결과가 0보다 크면 통과
+    - Action4: Google Sheets-Bulk AddRows - 합격자 불합격자들을 각각 다른 sheet(pass/fail)에 추가 이때 isNew컬럼 값은 y로 입력
     - Action5: Google Sheets- Search Rows - isNew Column이 y인 컬럼들을 모음
     - Action6: Google Sheets-Update a Row - 전에 읽어들인 isNew Column의 값을 N으로 바꿈
     -Action7: Gmail-Send a mail -Action 5에서 읽어들인 내용으로 메일을 전송함
+
 #### Make 특이사항
 
 01 Aggregator
