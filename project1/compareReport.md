@@ -206,7 +206,7 @@ AI 답변 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참고
 
 #### Make 실행 결과 화면 캡처(메일)
 
-AI 답변 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참고해주세요.
+AI 답변 생성 Action은  [Bonus](./compareReport.md#Bonus)를 참고해주세요.
 
 1. gmail1
 
