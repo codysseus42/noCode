@@ -17,6 +17,10 @@
 
 ### Trigger
 
+![schedule](./image/scheduleTrigger.png)
+
+![webhook](./image/webhookTrigger.png)
+
 ## 실행 결과 화면 캡처 
 
 <details>
