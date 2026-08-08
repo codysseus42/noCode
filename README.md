@@ -65,7 +65,7 @@
 | 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[n8n 구현 부터](./project1/compareReport.md#n8n-구현) |
 | 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | [n8n구현과정요약 부터](./project1/compareReport.md#n8n구현과정요약) |
 | 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [n8n 부터](./project1/compareReport.md#n8n)|
-| 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) } | [비교항목](./project1/compareReport.md#비교항목)|
+| 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) | [비교항목](./project1/compareReport.md#비교항목)|
 | 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) |[도구 장단점](./project1/compareReport.md#도구-장단점)|
 | 어떤 상황에서 적합한지 의견 | [compareReport.md](./project1/compareReport.md) | [상황별 적합도 의견](./project1/compareReport.md#상황별-적합도-의견) |
 
