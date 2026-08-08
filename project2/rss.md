@@ -27,7 +27,7 @@
 ![notionnegative](./image/prbnotionnegative.png)
 </details>
 
-![flowrss](./image/prbflowrss)
+![flowrss](./image/prbflowrss.png)
 
 <details>
 <summary>rss 결과</summary>
