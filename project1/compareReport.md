@@ -54,6 +54,28 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 
 ## [실행결과]
+입력전
+
+
+
+![StratResponse](./image/01startResponse.png)
+
+![beforepass](./image/01startResponse.png)
+
+![beforefail](./image/01startResponse.png)
+
+입력후
+
+![StratResponse](./image/n8nFirstshot.png)
+![StratResponse](./image/n8nfirstForm.png)
+
+###공통
+
+
+1회차: 주관식 미응답(0점추가 합격),주관식 조롱(0점추가 불합격),주관식 응답(1점 추가 합격)
+
+
+2회차: 주관식 응답(1점추가) 불합격 된결과 입니다.
 
 ### n8n
 
@@ -61,9 +83,6 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ![n8nHistList](./image/111n8nhistlist.png)
 
-![n8nfirstRun](./image/112n8nhist1.png)
-
-![n8nsecondRun](./image/113n8nhist2.png)
 
 #### n8n 실행 결과 화면 캡처
 
@@ -77,11 +96,6 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 ![makesecondRun](./image/116makehist2.png)
 
 #### Make 실행 결과 화면 캡처
-
-###공통
-1회차: 주관식 미응답(0점추가 합격),주관식 조롱(0점추가 불합격),주관식 응답(1점 추가 합격)
-2회차: 주관식 응답(1점추가) 불합격 된결과 입니다.
-
 1.gmail1
 
 2.gmail2
