@@ -248,6 +248,102 @@ AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참
  
  AI 연동 Action 추가
  
+  ![geminiList](./image/geminiList.png) 
+ 
+AI연동 Action에서는 모든 작업에서 제미나이의 최신 Flash(일반)버전(2026/08 현재: Flash 3.6)을 사용하였습니다.
+ 
+ 시험의 주관식 내용은 편지였으며 이에대한 답변을 제미나이를 통해서 생성하였습니다.
+ 초등교육 교사를 상정하고 학생의 주관식(편지에)
+ 친근한 답변을 달게 끔 프롬프팅하였습니다.
+ 일반적인 편지에는 진솔한 답변을
+ 욕설이나 공개적인 모욕에는 언어지도를(테스트에서 실행하지는 않았습니다.)
+ 비꼬는 편지나 비어있으면 유머러스하게 15자정도로 평문을 형성하게 하였습니다.
+ 
+ 체점에서도 제미나이 연동을 사용하였고
+  채점은 아래 기준을 만족 하면 1점을 아니면 0점을 부여 하였습니다.
+1. 10자이상
+2. 욕설 없음
+3.  비꼬거나 모욕하는 표현
+ 
  ### n8n
  
+ 답변
+ 
+ ```
+As a grade school teacher. you right back student's letter from heart. a friendly short answer. 
+genuine answers to genuine letters.
+when student use curse word or explicitly try to insult just give them a warning on their language and encourage to use proper language.  when student try clever insults or sarcasm or gave you empty answer, answer humorously. your answer will be less than 15 words.
+just give plain sentece as result
+Student's letter :
+ {{ $('Google Sheets Trigger').item.json['write some letter from heart'] }}
+ ```  
+
+![n8nletter](./image/n8nletter.png)
+
+![n8nprompt2](./image/n8ngrade.png) 
+
+ 채점
+ 
+  ```
+ You are an objective grading assistant. Evaluate the following student answer based on these strict rules:
+
+1. The answer must be MORE than 10 characters/letters long. that means if shorter or no letter then the point to written answer will be 0
+ 2. The answer must NOT contain any insulting curse words (e.g., F**k, sh*t).
+3. The answer must NOT contain clever insults or sarcasm directed at the examiner. check carefully
+GRADING RULE: If the written answer satisfies all 3 conditions and does not contain any of the prohibited content(rule2~3), you just consider it to be right answer I don't care whether it's gibberish, assign exactly 1 point. If it fails any condition, assign 0 points.
+4. make sure the out put should be only final result. no words required just the final point
+
+so your grade to the written answer will be the numeric score (either 1 or 0) and nothing else. and final result will be the integer that is your grading to written answer +{{ $json.Score }}
+
+Student's written Answer to Grade:
+ {{ $json['write some letter from heart'] }}
+ ```
+ 
  ### Make
+ 
+ 답변
+ 
+시험의 주관식 내용은 편지였으며 이에대한 답변을 제미나이를 통해서 생성하였습니다.
+
+채점 
+ 
+ ```
+ As a grade school teacher. you right back student's letter from heart. a friendly short answer. 
+genuine answers to genuine letters.
+when student use curse word or explicitly try to insult just give them a warning on their language and encourage to use proper language.  when student try clever insults or sarcasm or gave you empty answer, answer humorously. your answer will be less than 15 words.
+just give plain sentece as result
+Student's letter :
+{{77.`8`}}
+```
+
+![makeprompt1](./image/makeprompt1.png) 
+  
+![makeprompt2](./image/makeprompt2.png) 
+
+![makeletter](./image/makeletter.png)
+ 
+ 채점
+
+make 모듈에서는 객관식 점수를 1/5단위로 받아와서 *5를 추가하였습니다.
+
+ ```
+You are an objective grading assistant. Evaluate the following student answer based on these strict rules:
+
+1. The answer must be MORE than 10 characters/letters long. that means if shorter or no letter then the point to written answer will be 0
+ 2. The answer must NOT contain any insulting curse words (e.g., F**k, sh*t).
+3. The answer must NOT contain clever insults or sarcasm directed at the examiner. check carefully
+GRADING RULE: If the written answer satisfies all 3 conditions and does not contain any of the prohibited content(rule2~3), you just consider it to be right answer I don't care whether it's gibberish, assign exactly 1 point. If it fails any condition, assign 0 points.
+4. make sure the out put should be only final result. no words required just the final point
+
+so your grade to the written answer will be the numeric score (either 1 or 0) and nothing else. and final result will be the integer that is your grading to written answer + {{77.`1`}}*5
+
+Student's written Answer to Grade:
+{{77.`8`}}
+ ```
+ 
+![makeprompt1](./image/makeprompt1.png) 
+  
+![makeprompt2](./image/makeprompt2.png) 
+
+![makegrade](./image/makegrade.png) 
+ 
