@@ -170,13 +170,13 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ![n8nHistList](./image/111n8nhistlist.png)
 
-![makefirstRun](./image/112n8nhist1.png)
+![n8nFirstRun](./image/112n8nhist1.png)
 
-![makesecondRun](./image/113n8nhist2.png)
+![n8nSecondRun](./image/113n8nhist2.png)
 
 #### n8n 실행 결과 화면 캡처(메일)
 
-AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참고해주세요.
+AI 답변 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참고해주세요.
 
 1. gmail1
 
@@ -198,8 +198,6 @@ AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참
 
 #### 워크플로우 실행 히스토리
 
-AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참고해주세요.
-
 ![makeHistList](./image/114makehistlist.png)
 
 ![makefirstRun](./image/115makehist1.png)
@@ -207,6 +205,8 @@ AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참
 ![makesecondRun](./image/116makehist2.png)
 
 #### Make 실행 결과 화면 캡처(메일)
+
+AI 답변 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참고해주세요.
 
 1. gmail1
 
