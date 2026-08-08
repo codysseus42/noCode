@@ -25,7 +25,7 @@ graph TD
        G --> |내용이 있음| I["Action 6 Message a model 입력된 내용을 분석 해서 형식에 맞게 출력"] --> J["Action 7 입력전에 구조화"] ---> K{"f 조건분기2"} 
         K -->  |고양이 내용임| L["Action 8 고양이 내용으로 (sentiment, status=complete,summary 포함하여) NotionDB에 저장"] 
         K --> |고양이 내용 아님| M["Action9 고양이 아닌 내용으로 (sentiment, status=noCat,summary 비포함하여) Norion DB에 저장"]
-      G --> |내용이 없음| N["Action 10 Stop and Error Error Message로 No content Error전달"]  --> P["Error Trigger 에러 발생시 작동"] --> P["Action 11 Discord로 Error Message Work Flow전송"]
+      G --> |내용이 없음| N["Action 10 Stop and Error Error Message로 No content Error전달"]  --> O["Error Trigger 에러 발생시 작동"] --> P["Action 11 Discord로 Error Message Work Flow전송"]
 ```
 
 ### Trigger
