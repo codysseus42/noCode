@@ -154,11 +154,19 @@ AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참
 
 1. gmail1
 
+![n8ngmail1](./image/126n8ngmail2.png)
+
 2. gmail2
+
+![n8ngmail2](./image/125n8ngmail1.png)
 
 3. cloud mail
 
+![n8nicloud](./image/171n8nicloud.png)
+
 4. outlook(2회차)
+
+![n8noutlook](./image/174n8noutlook.png)
 
 ### Make
 
@@ -176,14 +184,24 @@ AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참
 
 1. gmail1
 
+![makegmail1](./image/127makegmail1.png)
+
 2. gmail2
+
+![makegmail1](./image/128makegmail2
+.png)
 
 3. cloud mail
 
-4. outlook(2회차)
+![makeicloud1](./image/172makeicloud1.png)
+
+![makeicloud2](./image/173makeicloud2.png)
 
 둘을 한꺼번에 작동 시킨 결과 마지막에 n8n 작업 내용을 읽어 들여서 실패 메일을 1개 더 전송하였으나 단독으로 작동 시킬 경우 로직 상에는 문제가 없어서 해당 테스트 내용을 첨부 하였습니다.
 
+4. outlook(2회차)
+
+![makeoutlook](./image/175makeoutlook.png)
 
 
 ## 비교항목

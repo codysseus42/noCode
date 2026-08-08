@@ -3,19 +3,19 @@
 
 ## 프로젝트 개요
 
-동일한 워크플로우를 Make와 Zapier 두 도구로 구현해 비교 분석하고(프로젝트 1), 별도의 반복 업무를 자동화하는 파이프라인을 설계·구현한(프로젝트 2) 프로젝트입니다.
+동일한 워크플로우를 Make와 n8n 두 도구로 구현해 비교 분석하고(프로젝트 1), 별도의 반복 업무를 자동화하는 파이프라인을 설계·구현한(프로젝트 2) 프로젝트입니다.
 
 ### 프로젝트 1 — 자동화 도구 비교 구현
 
 | 구분 | 내용 |
 | --- | --- |
 | 워크플로우 | Google Form(OX 퀴즈) 제출 → 채점 → 점수 기준 조건 분기 → Google Sheets 기록 + Gmail 발송 |
-| 사용 도구 | Make, Zapier |
-| Trigger | Google Forms — 응답 감지 |
-| 조건 분기 | 점수 기준 Router(Make) / Filter(Zapier) |
+| 사용 도구 | Make, n8n |
+| Trigger | Schedule Google Spread Sheet — 응답 감지 |
+| 조건 분기 | 점수 기준 Router(Make) / Filter(n8n) |
 | Action | Google Sheets 행 추가, Gmail 메일 발송 |
 
-### 프로젝트 2 — 자유 주제 자동화
+### 프로젝트 2 — 웹훅 트리거와 rssFeed를 활용한 게시물 분류 요약 저장
 
 | 구분 | 내용 |
 | --- | --- |
@@ -30,7 +30,7 @@
 
 | 문서 | 내용 | 바로가기 |
 | --- | --- | --- |
-| `compareReport.md` | 프로젝트 1 — Make vs Zapier 동일 워크플로우 구현 · 비교 항목 5종 이상 · 장단점 · 적합 상황 의견 | [compareReport.md](./project1/compareReport.md) |
+| `compareReport.md` | 프로젝트 1 — Make vs n8n 동일 워크플로우 구현 · 비교 항목 5종 이상 · 장단점 · 적합 상황 의견 | [compareReport.md](./project1/compareReport.md) |
 | `rss.md ` | 프로젝트 2 — 반복 업무 정의 · 도구 선정 이유 · 워크플로우 설계 · 실행 검증 | [rss.md](./projecrt2/rss.md.md) |
 
 ---
@@ -63,8 +63,8 @@
 | 사용한 도구 이름 | [01_tool_comparison.md](./01_tool_comparison.md) | [사용 도구](./project1/compareReport.md#자동화-도구-구현make-vs-n8n-과정-요약) |
 | 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) |
 | 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[n8n 구현 부터](./project1/compareReport.md#n8n-구현) |
-| 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [n8n 부터](./project1/compareReport.md#n8n)|
 | 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | [구현 과정](./project1/compareReport.md#공통실행결과) |
+| 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [n8n 부터](./project1/compareReport.md#n8n)|
 | 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) [비교항목](./project1/compareReport.md#비교항목)|
 | 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) |[도구 장단점](./project1/compareReport.md#도구-장단점)|
 | 어떤 상황에서 적합한지 의견 | [compareReport.md](./project1/compareReport.md) | [상황별 적합도 의견](./project1/compareReport.md#상황별-적합도-의견) |
@@ -81,9 +81,9 @@
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
-| 자동화할 반복 업무 1개 정의 | [rss.md](./projecrt2/rss.md) | 반복 업무 정의 |
-| 도구 1개 선정 및 선정 이유 | [rss.md](./projecrt2/rss.md) | 도구 선정 |
-| 워크플로우 설계 문서(설명 또는 다이어그램) | [rss.md](./projecrt2/rss.md) | 워크플로우 설계 |
+| 자동화할 반복 업무 1개 정의 | [rss.md](./projecrt2/rss.md) | [0반복 업무 정의](./project2/rss.md#업무-정의) |
+| 도구 1개 선정 및 선정 이유 | [rss.md](./projecrt2/rss.md) | [도구와 선정 이유](./project2/rss.md#도구와-선정-이유) |
+| 워크플로우 설계 문서(설명 또는 다이어그램) | [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
 | 자동 실행 구조 구현 | [rss.md](./projecrt2/rss.md) | 워크플로우 설계 — Trigger |
 | 워크플로우 흐름 설명 | [rss.md](./projecrt2/rss.md) | 워크플로우 흐름 |
 | 구현 화면 캡처 | [rss.md](./projecrt2/rss.md) | 구현 화면 |
@@ -104,7 +104,7 @@
 | API Key · 토큰 · 비밀번호 미노출 | 스크린샷 내 해당부분 가림|
 | 계정 이메일 일부 가림 처리 | 메일 주소 부분 가림 |
 | 무료 플랜 범위 내 구현 | Make 무료 1000토큰 이내, n8n 2간의 무료 체험기간 이용 이후 Docker를 통해서 계속 자체호스팅 가능| 
-| 유료 기능 사용 시 불가피 사유 + 무료 대안 명시 | 제미나이는 사용 편의성과 로그 관찰을 위해서 자체 API를 구입하여 사용하였습니다. 제미나이는 처음 가입자에게 무료 크레딧을 제공하고 oai 등 다른 llm 개발자 시스템에서도 무료 사용가능한 api크레딧을 제공하는 것으로 알고 있습니다.|
+| 유료 기능 사용 시 불가피 사유 + 무료 대안 명시 |두 프로젝트에서 제미나이는 사용 편의성과 로그 관찰을 위해서 자체 API를 구입하여 사용하였습니다. 제미나이는 처음 가입자에게 무료 크레딧을 제공하고 oai 등 다른 llm 개발자 시스템에서도 무료 사용가능한 api크레딧을 제공하는 것으로 알고 있습니다.|
 
 ## 개념 정리
 
