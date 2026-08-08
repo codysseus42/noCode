@@ -54,17 +54,22 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 
 ## [실행결과]
-입력전
+
+### 입력전
 
 
 
 ![StratResponse](./image/01startResponse.png)
 
-![beforepass](./image/01startResponse.png)
+![StratResponse](./image/01startResponse.png)
 
-![beforefail](./image/01startResponse.png)
+![beforepass](./image/150beforepass.png)
 
-입력후
+![beforefail](./image/151beforefail.png)
+
+### 입력
+
+### 입력후
 
 ![StratResponse](./image/n8nFirstshot.png)
 ![StratResponse](./image/n8nfirstForm.png)
