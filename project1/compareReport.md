@@ -56,7 +56,8 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 ## [실행결과]
 
 <details>
-<summary>  ### 입력전 </summary>
+<summary>  ### 입력전 </summary> 
+
 ![responseStartFrom](./image/responseStart.png)
 
 ![StratResponse](./image/01startResponse.png)
@@ -64,6 +65,7 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 ![beforepass](./image/150beforepass.png)
 
 ![beforefail](./image/151beforefail.png)
+
 </details>
 
 <details>
