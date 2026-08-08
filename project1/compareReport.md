@@ -137,14 +137,17 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ![failsecondlist](./image/139outlooklist.png)
 
-### [n8n]
+### n8n
 
 #### 워크플로우 실행 히스토리
 
 ![n8nHistList](./image/111n8nhistlist.png)
 
+![makefirstRun](./image/112n8nhist1.png)
 
-#### [n8n 실행 결과 화면 캡처(Bonus)]
+![makesecondRun](./image/113n8nhist2.png)
+
+#### n8n 실행 결과 화면 캡처(Bonus)
 
 1.gmail1
 
@@ -154,9 +157,9 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 4. outlook(2회차)
 
-### [Make]
+### Make
 
-#### [워크플로우 실행 히스토리]
+#### 워크플로우 실행 히스토리
 
 ![makeHistList](./image/114makehistlist.png)
 

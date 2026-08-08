@@ -39,45 +39,45 @@
 
 ### 공통 요구 사항
 
-| 평가 항목 | 대응 문서 | 해당 절 |
-| --- | --- | --- |
-| 실제 동작하는 워크플로우 구현 | [compareReport.md](./project1/compareReport.md), [rss.md](./projecrt2/rss.md.md)| 실행 결과 |
-| Trigger 1개 이상 포함 |[compareReport.md](./project1/compareReport.md), [rss.md](./projecrt2/rss.md.md)| 워크플로우 구성 |
-| Action 2개 이상 포함 | [compareReport.md](./project1/compareReport.md), [rss.md](./projecrt2/rss.md.md)| 워크플로우 구성 |
-| 조건 분기(Filter/Router) 1개 이상 포함 | [compareReport.md](./project1/compareReport.md), [rss.md](./projecrt2/rss.md.md)| 조건 분기 설계 |
-| 각 분기 경로 1회 이상 실행 결과 확인 | [compareReport.md](./project1/compareReport.md) , [rss.md](./projecrt2/rss.md.md)| 실행 결과 — 분기별 로그 |
+| 평가 항목 |
+| --- |
+| 실제 동작하는 워크플로우 구현 
+| Trigger 1개 이상 포함  |
+| Action 2개 이상 포함  |
+| 조건 분기(Filter/Router) 1개 이상 포함 |
+| 각 분기 경로 1회 이상 실행 결과 확인  |
 
 ### 프로젝트 1
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
-| 실제 동작하는 워크플로우 구현 | [compareReport.md](./project1/compareReport.md)| 실행 결과 |
-| Trigger 1개 이상 포함 |[compareReport.md](./project1/compareReport.md)| 워크플로우 구성 |
-| Action 2개 이상 포함 | [compareReport.md](./project1/compareReport.md)| 워크플로우 구성 |
-| 조건 분기(Filter/Router) 1개 이상 포함 | [compareReport.md](./project1/compareReport.md)| 조건 분기 설계 |
-| 각 분기 경로 1회 이상 실행 결과 확인 | [compareReport.md](./project1/compareReport.md)| 실행 결과 — 분기별 로그 |
+| 실제 동작하는 워크플로우 구현 | [compareReport.md](./project1/compareReport.md)| [실행 결과]((./project1/compareReport.md#실행결과)) |
+| Trigger 1개 이상 포함 |[compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) ] |
+| Action 2개 이상 포함 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) ] |
+| 조건 분기(Filter/Router) 1개 이상 포함 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우)  |
+| 각 분기 경로 1회 이상 실행 결과 확인 | [compareReport.md](./project1/compareReport.md)| [[실행 결과]((./project1/compareReport.md#실행결과) |
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
 | 서로 다른 2개 이상 자동화 도구 사용 |[compareReport.md](./project1/compareReport.md)| 사용 도구 |
-| 사용한 도구 이름 | [01_tool_comparison.md](./01_tool_comparison.md) | 사용 도구 |
-| 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md)| 워크플로우 정의 |
-| 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[compareReport.md](./project1/compareReport.md#n8n-구현) |
-| 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [실행 결과](./project1/compareReport.md#공통실행결과)[실행 결과](./project1/compareReport.md#공통실행결과)|
-| 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | 구현 과정 |
-| 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) 비교표 |
-| 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) | 장단점 |
-| 어떤 상황에서 적합한지 의견 | [compareReport.md](./project1/compareReport.md) | 도구 선택 가이드 |
+| 사용한 도구 이름 | [01_tool_comparison.md](./01_tool_comparison.md) | [사용 도구](./project1/compareReport.md#n8n-구현)) |
+| 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) |
+| 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[n8n 구현 부터](./project1/compareReport.md#n8n-구현) |
+| 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [실행 결과](./project1/compareReport.md#공통실행결과)|
+| 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | [구현 과정](./project1/compareReport.md#공통실행결과) |
+| 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) [비교표](./project1/compareReport.md#공통실행결과)|
+| 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) |[장단점](./project1/compareReport.md#공통실행결과)|
+| 어떤 상황에서 적합한지 의견 | [compareReport.md](./project1/compareReport.md) | [도구 선택 가이드](./project1/compareReport.md#공통실행결과) |
 
 ### 프로젝트 2
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
-| 실제 동작하는 워크플로우 구현 |  [rss.md](./projecrt2/rss.md.md)| 실행 결과 |
-| Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md.md)| 워크플로우 구성 |
-| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md.md)| 워크플로우 구성 |
-| 조건 분기(Filter/Router) 1개 이상 포함 |  [rss.md](./projecrt2/rss.md.md)| 조건 분기 설계 |
-| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md.md) | 실행 결과 — 분기별 로그 |
+| 실제 동작하는 워크플로우 구현 |  [rss.md](./projecrt2/rss.md.md)| [실행 결과] |
+| Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md.md)| [워크플로우 구성] |
+| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md.md)| [워크플로우 구성] |
+| 조건 분기(Filter/Router) 1개 이상 포함 |  [rss.md](./projecrt2/rss.md.md)| [조건 분기 설계] |
+| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md.md) | [실행 결과 — 분기별 로그] |
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
