@@ -316,9 +316,9 @@ Student's letter :
 {{77.`8`}}
 ```
 
-![makeprompt1](./image/makeresponseprompt1.png) 
-  
 ![makeprompt2](./image/makeresponseprompt2.png) 
+  
+![makeprompt1](./image/makeresponseprompt1.png) 
 
 ![makeletter](./image/makeletter.png)
  
