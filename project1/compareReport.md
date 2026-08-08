@@ -79,17 +79,24 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 <details>
 <summary>  ### 입력후 </summary>
+
 ![StratResponseForm](./image/n8nfirstForm.png)
+
 ![inputResponse1](./image/08intialinput2.png)
+
 ![inputResponse2](./image/09intitialinput3.png)
 
 ![StratResponse](./image/FirstExcel.png)
+
 </details>
 
 <details>
 <summary>  ### 2회 </summary>
+
 ![SecondResponse](./image/130secondrunresponse.png)
+
 ![SecondResponseForm](./image/160secondrunresponse.png)
+
 ![SecondResponseForm](./image/131secondRunExcel.png)
 </details>
 
