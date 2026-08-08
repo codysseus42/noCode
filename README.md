@@ -68,7 +68,7 @@
 | 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) | [비교항목](./project1/compareReport.md#비교항목)|
 | 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) |[도구 장단점](./project1/compareReport.md#도구-장단점)|
 | 어떤 상황에서 적합한지 의견 | [compareReport.md](./project1/compareReport.md) | [상황별 적합도 의견](./project1/compareReport.md#상황별-적합도-의견) |
-|보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [compareReport.md](./project1/compareReport.md) | [과제 1Bonus](./project1/compareReport.md#Bonus)|
+|보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [compareReport.md](./project1/compareReport.md) | [프로젝트1 Bonus](./project1/compareReport.md#Bonus)|
 
 ### 프로젝트 2
 
@@ -89,7 +89,7 @@
 | 워크플로우 흐름 설명 | [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
 | 구현 화면 캡처 | [rss.md](./projecrt2/rss.md) | [구현 화면 캡처](./project2/rss.md#구현-화면-캡처) |
 | 실행 결과 화면 캡처 | [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
-|보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [rss.md](./projecrt2/rss.md) | [과제2Bonus](./project2/rss.md#Bonus) |
+|보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [rss.md](./projecrt2/rss.md) | [프로젝트2 Bonus](./project2/rss.md#Bonus) |
 
 ## 제약 사항 준수
 
