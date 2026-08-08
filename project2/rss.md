@@ -41,7 +41,7 @@
 ![flownocat](./image/prbflownocat.png)
 <details>
 <summary>고양이 아님</summary>
-![notionnocat](./image/prbnotionnocat .png)
+![notionnocat](./image/prbnotionnocat.png)
 </details>
 
 ![flowerr](./image/prbflowerror.png)
