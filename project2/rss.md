@@ -22,7 +22,7 @@ graph TD
 
        A["Trigger 작동(Rss Webhook"] --> B["Action 1 Get many database pages notion에서 전체 데이터 베이스조회"] --> C["Action2 Aggregate 필터에서 중복 조회를 위해서 해당 값을 취합"] --> D["Acrion3 구조화 GUID 생성"]  --> E["Acrion4 Filter 필터에서 중복 조회"]  --> F["Action5 양쪽 경로에서 온 값들을 취합"]
        A1["Trigger 작동(Schedule Trigger or Webhook"] --> B1["Action 1 Get many database pages notion에서 전체 데이터 베이스조회"] --> C1["Action2 Aggregate 필터에서 중복 조회를 위해서 해당 값을 취합"] --> D1["Action3 구조화 GUID 생성"] --> E1["Acrion4 Filter 필터에서 중복 조회"] --> F --> G{"if 조건분기 게시물에 내용이 있는지에 따라 분기"}
-       G --> |내용이 있음| I["Action 6 Message a model 입력된 내용을 분석 해서 형식에 맞게 출력"] --> J["Action 7 입력전에 구조화"] ---> K{"f 조건분기2"} 
+       G --> |내용이 있음| I["Action 6 Message a model 입력된 내용을 분석 해서 형식에 맞게 출력"] --> J["Action 7 입력전에 구조화"] ---> K{"if 조건분기2"} 
         K -->  |고양이 내용임| L["Action 8 고양이 내용으로 (sentiment, status=complete,summary 포함하여) NotionDB에 저장"] 
         K --> |고양이 내용 아님| M["Action9 고양이 아닌 내용으로 (sentiment, status=noCat,summary 비포함하여) Norion DB에 저장"]
       G --> |내용이 없음| N["Action 10 Stop and Error Error Message로 No content Error전달"]  --> O["Error Trigger 에러 발생시 작동"] --> P["Action 11 Discord로 Error Message Work Flow전송"]
