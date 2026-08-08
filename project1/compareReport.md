@@ -214,8 +214,7 @@ AI 답변의 생성 Action은  [Bonus](./project1/compareReport.md#Bonus)를 참
 
 2. gmail2
 
-![makegmail1](./image/128makegmail2
-.png)
+![makegmail1](./image/128makegmail2.png)
 
 3. cloud mail
 
