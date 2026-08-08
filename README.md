@@ -62,8 +62,8 @@
 | 서로 다른 2개 이상 자동화 도구 사용 |[compareReport.md](./project1/compareReport.md)| 사용 도구 |
 | 사용한 도구 이름 | [01_tool_comparison.md](./01_tool_comparison.md) | 사용 도구 |
 | 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md)| 워크플로우 정의 |
-| 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) | Make 구현 · Zapier 구현 |
-| 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) | 실행 결과 |
+| 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[compareReport.md](./project1/compareReport.md#n8n-구현) |
+| 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [실행 결과](./project1/compareReport.md#공통실행결과)[실행 결과](./project1/compareReport.md#공통실행결과)|
 | 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | 구현 과정 |
 | 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) 비교표 |
 | 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) | 장단점 |
