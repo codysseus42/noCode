@@ -55,7 +55,7 @@
 | Trigger 1개 이상 포함 |[compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) |
 | Action 2개 이상 포함 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) |
 | 조건 분기(Filter/Router) 1개 이상 포함 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우)  |
-| 각 분기 경로 1회 이상 실행 결과 확인 | [compareReport.md](./project1/compareReport.md)| [n8n 부터]((./project1/compareReport.md#n8n) |
+| 각 분기 경로 1회 이상 실행 결과 확인 | [compareReport.md](./project1/compareReport.md)| [n8n 부터](./project1/compareReport.md#n8n) |
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
