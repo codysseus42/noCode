@@ -24,7 +24,9 @@
 
 <details>
 <summary>webhook 결과</summary>
+
 ![notionnegative](./image/prbnotionnegative.png)
+
 </details>
 
 ![flowrss](./image/prbflowrss.png)
@@ -39,15 +41,20 @@
 </details>
 
 ![flownocat](./image/prbflownocat.png)
+
 <details>
 <summary>고양이 아님</summary>
+
 ![notionnocat](./image/prbnotionnocat.png)
+
 </details>
 
 ![flowerr](./image/prbflowerror.png)
 <details>
 <summary>내용 없음 오류</summary>
+
 ![discorderr](./image/discorderr.png)
+
 </details>
 
 ## Bonus
