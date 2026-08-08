@@ -102,9 +102,13 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ### 공통
 
+입력 시간대 조정문제로 timestamp시간에 차이가 생겼지만 시간 기록은 일관됨니다. 
+
 ![FirstPass](./image/firstpass.png)
 
 ![failFirstlist](./image/Firstfail.png)
+
+![allExcel](./image/allExcel.png)
 
 ![failsecondlist](./image/164secondFail.png)
 
