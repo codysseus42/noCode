@@ -57,9 +57,7 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ### 입력전
 
-
-
-![StratResponse](./image/01startResponse.png)
+![responseStartFrom](./image/responseStart.png)
 
 ![StratResponse](./image/01startResponse.png)
 
@@ -69,10 +67,15 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 ### 입력
 
+![input1](./image/05input1.png)
+![input1](./image/06input2.png)
+![input1](./image/responseStart.png)
+
 ### 입력후
 
-![StratResponse](./image/n8nFirstshot.png)
-![StratResponse](./image/n8nfirstForm.png)
+![StratResponseForm](./image/n8nfirstForm.png)
+![StratResponse](./image/FirstExcel.png)
+
 
 ###공통
 
