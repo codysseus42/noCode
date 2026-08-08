@@ -44,7 +44,7 @@
 ![notionnocat](./image/prbnotionnocat.png)
 </details>
 
-![flowerr](./image/prbflowerror)
+![flowerr](./image/prbflowerror.png)
 <details>
 <summary>내용 없음 오류</summary>
 ![discorderr](./image/discorderr.png)
