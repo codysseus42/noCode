@@ -36,9 +36,9 @@
 
 ![notionneutral](./image/prbnotionneutral.png)
 
-<details>
+</details>
 
-![flownocat](./image/prbflownocat)
+![flownocat](./image/prbflownocat.png)
 <details>
 <summary>고양이 아님</summary>
 ![notionnocat](./image/prbnotionnocat.png)
