@@ -59,14 +59,14 @@
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
-| 서로 다른 2개 이상 자동화 도구 사용 |[compareReport.md](./project1/compareReport.md)| [사용 도구](./project1/compareReport.md#자동화-도구-구현make-vs-n8n-과정-요약)  |
-| 사용한 도구 이름 | [01_tool_comparison.md](./01_tool_comparison.md) | [사용 도구](./project1/compareReport.md#자동화-도구-구현make-vs-n8n-과정-요약) |
-| 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md)| [워크플로우](./project1/compareReport.md#워크플로우) |
+| 서로 다른 2개 이상 자동화 도구 사용 | [compareReport.md](./project1/compareReport.md)| [자동화 도구 구현(Make vs n8n) 과정 요약](./project1/compareReport.md#자동화-도구-구현make-vs-n8n-과정-요약)  |
+| 사용한 도구 이름 | [compareReport.md](./project1/compareReport.md) | [자동화 도구 구현(Make vs n8n) 과정 요약](./project1/compareReport.md#자동화-도구-구현make-vs-n8n-과정-요약) |
+| 동일한 워크플로우 구조로 구현 | [compareReport.md](./project1/compareReport.md) | [워크플로우](./project1/compareReport.md#워크플로우) |
 | 도구별 워크플로우 구성 화면 캡처 | [compareReport.md](./project1/compareReport.md) |[n8n 구현 부터](./project1/compareReport.md#n8n-구현) |
 | 구현 과정 요약 | [compareReport.md](./project1/compareReport.md) | [n8n구현과정요약 부터](./project1/compareReport.md#n8n구현과정요약) |
 | 실행 결과 화면 캡처 | [compareReport.md](./project1/compareReport.md) |  [n8n 부터](./project1/compareReport.md#n8n)|
 | 비교 항목 5개 이상 | [compareReport.md](./project1/compareReport.md) | [비교항목](./project1/compareReport.md#비교항목)|
-| 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) |[도구 장단점](./project1/compareReport.md#도구-장단점)|
+| 각 도구의 장단점 정리 | [compareReport.md](./project1/compareReport.md) | [도구 장단점](./project1/compareReport.md#도구-장단점)|
 | 어떤 상황에서 적합한지 의견 | [compareReport.md](./project1/compareReport.md) | [상황별 적합도 의견](./project1/compareReport.md#상황별-적합도-의견) |
 |보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [compareReport.md](./project1/compareReport.md) | [프로젝트1 Bonus](./project1/compareReport.md#Bonus)|
 
@@ -75,10 +75,10 @@
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
 | 실제 동작하는 워크플로우 구현 |  [rss.md](./projecrt2/rss.md)| [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
-| Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
-| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
-| 조건 분기(Filter/Router) 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
-| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
+| Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| 조건 분기(Filter/Router) 1개 이상 포함 | [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| 각 분기 경로 1회 이상 실행 결과 확인 | [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
@@ -98,10 +98,10 @@
 | 자동화 도구 2개 이상 직접 사용 | Make, n8n 양쪽 직접 구현 | 
 | 두 프로젝트 모두 실제 동작하는 워크플로우 | 실행 로그/결과 화면 첨부 |
 | 프로젝트 2는 Trigger 발생 시 자동 실행 | 웹훅 입력과 rss피드를 10분 주기로 읽어서 실행하도록 하였습니다. | 
-| API Key · 토큰 · 비밀번호 미노출 | 스크린샷 내 해당부분 가림|
+| API Key · 토큰 · 비밀번호 미노출 | 스크린샷 내 해당부분 가렸습니다. |
 | 계정 이메일 일부 가림 처리 | 메일 주소 부분 가림 |
-| 무료 플랜 범위 내 구현 | Make 1달 1000크레딧 이내 무료이며 해당 범위안에서 사용가능합니다., n8n은 클라우드에서 2주간의 무료 체험기간을 이용하여 구현하였고 이후 필요하면 무료배포판을 Docker를 통해서 계속 자체호스팅 가능합니다.| 
-| 유료 기능 사용 시 불가피 사유 + 무료 대안 명시 |두 프로젝트에서 제미나이는 사용 편의성과 로그 관찰을 위해서 자체 API를 구입하여 사용하였습니다. 제미나이는 구글 ai 스튜디오를 통해 처음 가입자에게 무료 크레딧을 제공하고 oai 등 다른 llm의 개발자 시스템에서도 무료 사용가능한 api크레딧을 제공하는 것으로 알고 있습니다.|
+| 무료 플랜 범위 내 구현 | Make 1달 1000크레딧 이내 무료이며 해당 범위안에서 사용가능합니다., n8n은 클라우드에서 2주간의 무료 체험기간을 이용하여 구현하였고 이후 필요하면 무료배포판을 Docker를 통해서 계속 자체호스팅 가능합니다. | 
+| 유료 기능 사용 시 불가피 사유 + 무료 대안 명시 |두 프로젝트에서 제미나이는 사용 편의성과 로그 관찰을 위해서 자체 API를 구입하여 사용하였습니다. 제미나이는 구글 ai 스튜디오를 통해 처음 가입자에게 무료 크레딧을 제공하고 oai 등 다른 llm의 개발자 시스템에서도 무료 사용가능한 api크레딧을 제공하는 것으로 알고 있습니다. |
 
 ## 개념 정리
 
