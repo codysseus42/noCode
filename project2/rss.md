@@ -3,20 +3,34 @@
 ## 업무 정의
 웹폼(Tally)을 통해서 게시물이 접수되면 Webhook으로 호출하거나 10분마다 블로그(Blogger)에 접수된 게시물을 RSSFEED를 통해서 조회하는 2가지 Trigger를 가지고
 두 소스에서 접수된 게시물들에 규칙에 따른 guid를 검사하고 내용이 없으면 오류처리 내용이 있으면 고양이에 대한 내용인지, 긍정,부정,중립중 어떤 내용인지 분류하고 게시물을 요약한 결과물을 json으로 받고, 고양이 관련 내용인지 아닌지에 따라 notion 데이터베이스 페이지에 저장한다.
+
 ## 도구와 선정 이유
 선정 도구:n8n
 
 현재 무료사용 기간이어서 다른 대안(make)보다 많은 사용양을 확보할 수 있고, 이후 기간에 반복 실행하여도 자체 호스팅을 통해 실행하면 비용을 아낄 수 있으며, 여러건의 입력 값에 대해 묶음 처리가 수월하여 선정하였습니다.
 
-## 워크플로우 설계
-
-
-
 ## 구현 화면 캡처
 
+![workflow](./image/projectbworkflow.png)
 
+## 워크플로우 설계
 
 ## 실행 결과 화면 캡처 
+
+<details>
+<summary>입력값</summary>
+
+웹폼(Tally)
+![inputtally](./image/prbsubmission.png)
+
+각각 고양이 부정적 내용과 내용없는 오류 입력입니다.
+
+블로그(Blogger)
+![inputblog](./image/prbblog.png)
+
+고양이에 대한 중립적, 긍정적 게시물과 고양이와 관련 없는 송사리 관련 게시물입니다.
+
+</details>
 
 ![log](./image/prbloglist.png)
 
@@ -60,3 +74,4 @@
 ## Bonus
 
 ![geminilog](./image/prbgemini.png)
+
