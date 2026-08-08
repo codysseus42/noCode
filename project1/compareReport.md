@@ -33,16 +33,21 @@ n8n과 일치하게  Form spread sheet에 맞게 변경 되었습니다.
 #### Make 특이사항
 
 01 Aggregator
+
 ![Aggregator1](./image/104Aggregator.png)
+
 Gemini 채점, 답장 생성 답변이후 한번에 실행하기 위해 Aggregator 로 모아주어야 합니다.
 
 02 Filter
+
 ![Aggregator2](./image/103AggregatorEmpty.png)
+
 ![Filter](./image/102FilterInAction.png)
 
 Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요합니다.
 
 03 Cron 형
+
 ![Trigger](./image/102FilterInAction.png)
 
 크론형 트리거로 작동 시키기 위해서 작동시간을 곧 있을 0,15,30,45 분중 하나로 맞춰주고 하루 종일 작동하게 맞춰 줌니다.
