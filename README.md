@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# noCode
+noCode codyssey
+
+## 프로젝트 
+=======
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
 # 노코드 자동화 — 도구 비교 구현 및 자유 주제 파이프라인
 
 ## 프로젝트 개요
@@ -36,11 +45,26 @@
 ---
 
 ## 평가 기준 대응
+<<<<<<< HEAD
+=======
+>>>>>>> bc2fe14 (flowchart)
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
 
 ### 공통 요구 사항
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+| 실제 동작하는 워크플로우 구현 | [01_tool_comparison.md](./01_tool_comparison.md)| 실행 결과 |
+| Trigger 1개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md)| 워크플로우 구성 |
+| Action 2개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md)| 워크플로우 구성 |
+| 조건 분기(Filter/Router) 1개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md)| 조건 분기 설계 |
+| 각 분기 경로 1회 이상 실행 결과 확인 | [01_tool_comparison.md](./01_tool_comparison.md) | 실행 결과 — 분기별 로그 |
+
+=======
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
 | 실제 동작하는 워크플로우 구현 | [01_tool_comparison.md](./01_tool_comparison.md), [02_custom_workflow.md](./02_custom_workflow.md) | 실행 결과 |
 | Trigger 1개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md), [02_custom_workflow.md](./02_custom_workflow.md) | 워크플로우 구성 |
 | Action 2개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md), [02_custom_workflow.md](./02_custom_workflow.md) | 워크플로우 구성 |
@@ -48,6 +72,10 @@
 | 각 분기 경로 1회 이상 실행 결과 확인 | [01_tool_comparison.md](./01_tool_comparison.md), [02_custom_workflow.md](./02_custom_workflow.md) | 실행 결과 — 분기별 로그 |
 
 ### 프로젝트 1
+<<<<<<< HEAD
+=======
+>>>>>>> bc2fe14 (flowchart)
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
@@ -65,6 +93,20 @@
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+| 실제 동작하는 워크플로우 구현 | [01_tool_comparison.md](./01_tool_comparison.md)| 실행 결과 |
+| Trigger 1개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md)| 워크플로우 구성 |
+| Action 2개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md)| 워크플로우 구성 |
+| 조건 분기(Filter/Router) 1개 이상 포함 | [01_tool_comparison.md](./01_tool_comparison.md)| 조건 분기 설계 |
+| 각 분기 경로 1회 이상 실행 결과 확인 | [01_tool_comparison.md](./01_tool_comparison.md) | 실행 결과 — 분기별 로그 |
+
+| 평가 항목 | 대응 문서 | 해당 절 |
+| --- | --- | --- |
+=======
+>>>>>>> bc2fe14 (flowchart)
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
 | 자동화할 반복 업무 1개 정의 | [02_custom_workflow.md](./02_custom_workflow.md) | 반복 업무 정의 |
 | 도구 1개 선정 및 선정 이유 | [02_custom_workflow.md](./02_custom_workflow.md) | 도구 선정 |
 | 워크플로우 설계 문서(설명 또는 다이어그램) | [02_custom_workflow.md](./02_custom_workflow.md) | 워크플로우 설계 |
@@ -77,6 +119,15 @@
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+| 보너스 1 — AI 연동 Action 추가 | (해당 시 기재) | — |
+| 보너스 2 — 실패 알림 및 재시도/대체 경로 | (해당 시 기재) | — |
+
+---
+=======
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
 | 보너스 1 — AI 연동 Action 추가 | ./project1/compareReport.md |  |
 ---
 
@@ -101,4 +152,9 @@
 | Trigger | 워크플로우 실행을 시작시키는 이벤트 |
 | Action | Trigger 이후 수행되는 처리 동작 |
 | Filter | 조건을 만족하는 경우에만 이후 단계를 통과시키는 단일 경로 게이트 |
+<<<<<<< HEAD
 | Router | 조건에 따라 서로 다른 경로로 분기시키는 다중 경로 구조 |
+=======
+| Router | 조건에 따라 서로 다른 경로로 분기시키는 다중 경로 구조 |
+>>>>>>> bc2fe14 (flowchart)
+>>>>>>> 570e946e1302d1bb593ff4c248eca75d3f70f1e0
