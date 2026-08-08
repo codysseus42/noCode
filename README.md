@@ -75,10 +75,10 @@
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
 | 실제 동작하는 워크플로우 구현 |  [rss.md](./projecrt2/rss.md)| [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
-| Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [[워크플로우 설계](./project2/rss.md#워크플로우-설계)] |
-| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [[워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
 | 조건 분기(Filter/Router) 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
-| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처)] |
+| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
@@ -91,11 +91,6 @@
 | 실행 결과 화면 캡처 | [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
 |보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [rss.md](./projecrt2/rss.md) | [과제2Bonus](./project2/rss.md#Bonus) |
 
-### 보너스
-보너스 1 — AI 연동 Action 추가
-| 평가 항목 | 대응 문서 | 해당 절 |
-| --- | --- | --- |
-|워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.|[compareReport.md](./project1/compareReport.md) , [rss.md](./projecrt2/rss.md)| [과제 1Bonus](./project1/compareReport.md#Bonus),[과제2Bonus](./project2/rss.md#Bonus)|
 ## 제약 사항 준수
 
 | 제약 항목 | 준수 내용 | 
