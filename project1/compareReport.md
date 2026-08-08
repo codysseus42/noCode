@@ -103,10 +103,28 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 ###공통
 
 
-1회차: 주관식 미응답(0점추가 합격),주관식 조롱(0점추가 불합격),주관식 응답(1점 추가 합격)
+1회차: 주관식 미응답(0점추가 합격), 주관식 응답(1점 추가 합격), 주관식 조롱(0점추가 불합격)
 
+
+주관식 미응답(0점추가 합격)
+
+![Accepted5list](./image/121gmai2list.png)
+
+주관식 응답(1점 추가 합격)
+
+![Accepted3list](./image/120gmail1list.png)
+
+주관식 조롱(0점추가 불합격)
+
+![fail2list](./image/122icloudlist.png)
+
+둘을 한꺼번에 작동 시킨 결과 마지막에 n8n 작업 내용을 읽어 들여서 실패 메일을 1개 더 전송하였으나 단독으로 작동 시킬 경우 로직 상에는 문제가 없어서 해당 테스트 내용을 첨부 하였습니다.
 
 2회차: 주관식 응답(1점추가) 불합격 된결과 입니다.
+
+![failsecondlist](./image/164secondFail.png)
+
+![failsecondlist](./image/139outlooklist.png)
 
 ### n8n
 
