@@ -15,6 +15,8 @@
 
 ## 워크플로우 설계
 
+### Trigger
+
 ## 실행 결과 화면 캡처 
 
 <details>
@@ -74,4 +76,32 @@
 ## Bonus
 
 ![geminilog](./image/prbgemini.png)
+
+```
+You are a content analyzer.
+Read the following title and content, then follow these steps:
+
+1. Check if it is about a cat.
+   - If NOT about a cat, set isCat to "N", 
+     leave sentiment and summary empty, and stop.
+   - If about a cat, set isCat to "Y" and continue.
+
+2. Write a brief summary of the post (1-2 sentences).
+
+3. Analyze the sentiment and choose ONE:
+   'positive', 'negative', or 'neutral'.
+
+Return ONLY valid JSON in this exact format:
+{
+  "isCat": "Y or N",
+  "sentiment": "positive, negative, or neutral",
+  "summary": "brief summary here"
+}
+
+title: {{ $('Merge').item.json.title }}
+content: {{ $('Merge').item.json.content }}
+```
+
+![geminilog](./image/prbAINodew.png)
+
 

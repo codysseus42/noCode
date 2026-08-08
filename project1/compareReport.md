@@ -280,8 +280,6 @@ Student's letter :
 
 ![n8nletter](./image/n8nletter.png)
 
-![n8nprompt2](./image/n8ngrade.png) 
-
  채점
  
   ```
@@ -298,6 +296,8 @@ so your grade to the written answer will be the numeric score (either 1 or 0) an
 Student's written Answer to Grade:
  {{ $json['write some letter from heart'] }}
  ```
+ 
+ ![n8nprompt2](./image/n8ngrade.png) 
  
  ### Make
  
@@ -316,9 +316,9 @@ Student's letter :
 {{77.`8`}}
 ```
 
-![makeprompt1](./image/makeprompt1.png) 
+![makeprompt1](./image/makeresponseprompt1.png) 
   
-![makeprompt2](./image/makeprompt2.png) 
+![makeprompt2](./image/makeresponseprompt2.png) 
 
 ![makeletter](./image/makeletter.png)
  

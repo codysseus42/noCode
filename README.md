@@ -74,22 +74,22 @@
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
-| 실제 동작하는 워크플로우 구현 |  [rss.md](./projecrt2/rss.md)| [실행 결과] |
+| 실제 동작하는 워크플로우 구현 |  [rss.md](./projecrt2/rss.md)| [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
 | Trigger 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [[워크플로우 설계](./project2/rss.md#워크플로우-설계)] |
-| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [[워크플로우 설계](./project2/rss.md#워크플로우-설계)] |
-| 조건 분기(Filter/Router) 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [조건 분기 설계] |
-| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md) | [실행 결과 — 분기별 로그] |
+| Action 2개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [[워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| 조건 분기(Filter/Router) 1개 이상 포함 |  [rss.md](./projecrt2/rss.md)| [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| 각 분기 경로 1회 이상 실행 결과 확인 |  [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처)] |
 
 | 평가 항목 | 대응 문서 | 해당 절 |
 | --- | --- | --- |
-| 자동화할 반복 업무 1개 정의 | [rss.md](./projecrt2/rss.md) | [0반복 업무 정의](./project2/rss.md#업무-정의) |
+| 자동화할 반복 업무 1개 정의 | [rss.md](./projecrt2/rss.md) | [반복 업무 정의](./project2/rss.md#업무-정의) |
 | 도구 1개 선정 및 선정 이유 | [rss.md](./projecrt2/rss.md) | [도구와 선정 이유](./project2/rss.md#도구와-선정-이유) |
 | 워크플로우 설계 문서(설명 또는 다이어그램) | [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
-| 자동 실행 구조 구현 | [rss.md](./projecrt2/rss.md) | 워크플로우 설계 — Trigger |
-| 워크플로우 흐름 설명 | [rss.md](./projecrt2/rss.md) | 워크플로우 흐름 |
-| 구현 화면 캡처 | [rss.md](./projecrt2/rss.md) | 구현 화면 |
-| 실행 결과 화면 캡처 | [rss.md](./projecrt2/rss.md) | 실행 결과 |
-|보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [rss.md](./projecrt2/rss.md)| [과제2Bonus](./project2/rss.md#Bonus)|
+| 자동 실행 구조 구현 | [rss.md](./projecrt2/rss.md) | [Trigger](./project2/rss.md#Trigger) |
+| 워크플로우 흐름 설명 | [rss.md](./projecrt2/rss.md) | [워크플로우 설계](./project2/rss.md#워크플로우-설계) |
+| 구현 화면 캡처 | [rss.md](./projecrt2/rss.md) | [구현 화면 캡처](./project2/rss.md#구현-화면-캡처) |
+| 실행 결과 화면 캡처 | [rss.md](./projecrt2/rss.md) | [실행 결과 화면 캡처](./project2/rss.md#실행-결과-화면-캡처) |
+|보너스1-워크플로우에 생성형 AI 를 Action 으로 추가해 텍스트를 자동 생성한다.| [rss.md](./projecrt2/rss.md) | [과제2Bonus](./project2/rss.md#Bonus) |
 
 ### 보너스
 보너스 1 — AI 연동 Action 추가
