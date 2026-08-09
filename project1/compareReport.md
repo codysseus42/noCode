@@ -75,7 +75,7 @@ Aggregator가 입력이 없는 경우도 취합하기 때문에 Filter가 필요
 
 03 Cron 형
 
-![Trigger](./image/102FilterInAction.png)
+![Trigger](./image/03startSchedulemake.png)
 
 크론형 트리거로 작동 시키기 위해서 작동시간을 곧 있을 0,15,30,45 분중 하나로 맞춰주고 하루 종일 작동하게 맞춰 줌니다.
 
